@@ -19,19 +19,19 @@ export default function App() {
             element={<Home />}
             />
           <Route
-            path='/bounties'
+            path='/blogs'
             element={<Blogs />}
             />
           <Route
-            path='/bounties/new'
+            path='/blogs/new'
             element={<Blog />}
             />
           <Route
-            path='/bounties/:id'
+            path='/blogs/:id'
             element={<NewBlog />}
             />
           <Route
-            path='/bounties/:id/edit'
+            path='/blogs/:id/edit'
             element={<EditBlog />}
             />
         </Routes>
